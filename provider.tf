@@ -10,6 +10,6 @@ terraform {
 }
 
 provider "aws" {
-  region  = var.aws_region
-  profile = "terr-test"
+  region = var.aws_region
+
 }
